@@ -9,8 +9,8 @@ const Header = () => {
         <div className='relative flex items-center justify-between'>
           <Link
             to='/'
-            aria-label='proReader'
-            title='proReader'
+            aria-label='pheBooks'
+            title='pheBooks'
             className='inline-flex items-center'
           >
             <svg
@@ -29,7 +29,7 @@ const Header = () => {
               <rect x='14' y='11' width='7' height='12' />
             </svg>
             <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
-              proReader
+              pheBooks
             </span>
           </Link>
           <ul className='flex items-center hidden space-x-8 lg:flex'>
@@ -105,8 +105,8 @@ const Header = () => {
                     <div>
                       <Link
                         to='/'
-                        aria-label='proReader'
-                        title='proReader'
+                        aria-label='pheBooks'
+                        title='pheBooks'
                         className='inline-flex items-center'
                       >
                         <svg
@@ -125,7 +125,7 @@ const Header = () => {
                           <rect x='14' y='11' width='7' height='12' />
                         </svg>
                         <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                          proReader
+                          pheBooks
                         </span>
                       </Link>
                     </div>
